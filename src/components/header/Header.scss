@@ -1,0 +1,105 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  padding: 12px;
+  width: 100vw;
+  box-shadow: 0px 4px 32px 0px #00103d29;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  & ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    & li a {
+      font-family: Montserrat;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #2c2d2e;
+      transition: all 0.6s;
+      &:hover {
+        color: #ef7c00;
+      }
+    }
+  }
+}
+.logo {
+  width: 100%;
+  max-width: 122px;
+}
+.mode-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.6s;
+  color: #fff;
+  background-color: #ef7c00;
+  &:hover {
+    box-shadow: 0px 4px 32px 0px #00103d29;
+  }
+}
+#menu-btn {
+  display: none;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.6s;
+  color: #fff;
+  background-color: #ef7c00;
+  &:hover {
+    box-shadow: 0px 4px 32px 0px #00103d29;
+  }
+}
+
+@media (max-width: 360px) {
+  #menu-btn {
+    padding: 5px;
+  }
+  .mode-btn {
+    padding: 5px;
+  }
+}
+@media (max-width: 1068px) {
+  #menu-btn {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.6s;
+    &:hover {
+      box-shadow: 0px 4px 32px 0px #00103d29;
+    }
+  }
+  .nav-content ul {
+    display: none;
+  }
+}
+
+.dark {
+  .navbar {
+    background: #384178;
+  }
+  .nav-content {
+    background: #384178;
+  }
+  .nav-content ul li a {
+    color: #fff;
+  }
+  .nav-content button {
+    color: #fff;
+    background-color: #384178;
+  }
+  #menu-btn {
+    background-color: #384178;
+  }
+  li a {
+    color: #fff;
+  }
+  background-color: #384178;
+}
