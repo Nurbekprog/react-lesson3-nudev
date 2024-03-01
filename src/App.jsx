@@ -5,6 +5,7 @@ import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Sertificates from "./components/sertificates/Sertificates";
 import Products from "./components/products/Products";
+import Form from "./components/form/Form";
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <About />
         <Sertificates />
         <Products />
+        <Form />
       </div>
     );
   }

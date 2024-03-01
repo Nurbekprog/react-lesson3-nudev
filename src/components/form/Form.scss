@@ -1,0 +1,95 @@
+.form {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 24px;
+  box-shadow: 0px 4px 32px 0px #00103d29;
+  background: "../../assets/images/form-banner.png";
+  background-size: cover;
+  border-radius: 5px;
+  & p {
+    padding: 12px 0 24px 0;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2c2d2e;
+  }
+  & form {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    & input {
+      padding: 10px 12px;
+      border: 1px solid #00103d1f;
+      &::placeholder {
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #919399;
+      }
+    }
+  }
+  & textarea {
+    margin-top: 12px;
+    padding: 12px;
+    display: block;
+    border: 1px solid #00103d1f;
+    &::placeholder {
+      font-family: Montserrat;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #919399;
+    }
+  }
+  & button {
+    margin-top: 12px;
+    padding: 10px 20px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #fff;
+    background-color: #ef7c00;
+    border: none;
+    border-radius: 4px;
+  }
+}
+.form-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+
+  & h2 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #2c2d2e;
+  }
+}
+#form-title-h22 {
+  color: #ef7c00;
+}
+@media (max-width: 667px) {
+  .form-title {
+    flex-direction: column;
+  }
+}
+@media (max-width: 667px) {
+  .form form {
+    flex-direction: column;
+  }
+}
