@@ -1,0 +1,146 @@
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+  &-title {
+    display: flex;
+    align-items: center;
+    padding-bottom: 12px;
+    gap: 8px;
+    & h2 {
+      font-family: Montserrat;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 40px;
+      letter-spacing: 0px;
+      text-align: center;
+      color: #2c2d2e;
+    }
+    & #h22 {
+      color: #ef7c00;
+    }
+  }
+  & ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    @media (max-width: 1115px) {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+    }
+    @media (max-width: 882px) {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+    }
+    @media (max-width: 700px) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+    @media (max-width: 482px) {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+    & li {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      gap: 12px;
+      & h4 {
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #2c2d2e;
+      }
+      & p {
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #919399;
+      }
+      & h5 {
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #2c2d2e;
+      }
+      & h6 {
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #2c2d2e;
+      }
+      & img {
+        width: 100%;
+        max-width: 203px;
+        border-radius: 50%;
+      }
+    }
+  }
+  & button {
+    margin-top: 32px;
+    padding: 10px 20px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ef7c00;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #ef7c00;
+    transition: 0.6s;
+    &:hover {
+      background: #ef7c00;
+      color: #fff;
+    }
+  }
+}
+.dark {
+  #h22 {
+    color: #fff;
+  }
+  .team-title {
+    & h2 {
+      color: #fff;
+    }
+  }
+  .team ul {
+    & li h4{
+      color: #fff;
+    }
+    & li p{
+      color: #fff;
+    }
+    & li h5{
+      color: #fff;
+    }
+    & li h6{
+      color: #fff;
+    }
+
+  }
+  .team {
+    & button {
+      background-color: transparent;
+      color: #fff;
+      border-color: #fff;
+    }
+  }
+}

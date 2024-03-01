@@ -6,6 +6,7 @@ import About from "./components/about/About";
 import Sertificates from "./components/sertificates/Sertificates";
 import Products from "./components/products/Products";
 import Form from "./components/form/Form";
+import Team from "./components/team/Team";
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <Sertificates />
         <Products />
         <Form />
+        <Team />
       </div>
     );
   }
