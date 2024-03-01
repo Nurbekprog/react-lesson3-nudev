@@ -8,6 +8,7 @@ import Products from "./components/products/Products";
 import Form from "./components/form/Form";
 import Team from "./components/team/Team";
 import News from "./components/news/News";
+import BackToTopButton from "./components/backtop/BackToTopButton";
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
         <Form />
         <Team />
         <News />
+        <BackToTopButton />
       </div>
     );
   }

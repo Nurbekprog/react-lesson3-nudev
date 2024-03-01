@@ -1,0 +1,14 @@
+.btn {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  align-items: center;
+  padding: 8px;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  opacity: 0.8;
+  background: #ef7c00;
+  border-radius: 5px;
+}
