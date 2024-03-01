@@ -9,7 +9,7 @@ import product5 from "../../assets/images/product5.png";
 class Products extends Component {
   render() {
     return (
-      <div className="product container">
+      <div id='products' className="product container">
         <div className="product-title">
           <h2 className="product-title-h21">Наша</h2>
           <h2 className="product-title-h22">продукция</h2>

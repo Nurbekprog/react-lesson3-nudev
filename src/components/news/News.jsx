@@ -6,7 +6,7 @@ import news3 from "../../assets/images/news3.png";
 export default class News extends Component {
   render() {
     return (
-      <div className="news container">
+      <div id='news' className="news container">
         <h2>Новости</h2>
         <ul>
           <li>

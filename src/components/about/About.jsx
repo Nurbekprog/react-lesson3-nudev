@@ -4,7 +4,7 @@ import aboutVideo from "../../assets/images/about-video.svg";
 class About extends Component {
   render() {
     return (
-      <div className="about container">
+      <div id="about" className="about container">
         <div className="about-title">
           <h2>О компании</h2>
           <h1>LEANGROUP</h1>

@@ -8,7 +8,7 @@ import lider5 from "../../assets/images/team-img5.png";
 class Team extends Component {
   render() {
     return (
-      <div className="team container">
+      <div id="team" className="team container">
         <div className="team-title">
           <h2>Наша</h2>
           <h2 id="h22">команда</h2>

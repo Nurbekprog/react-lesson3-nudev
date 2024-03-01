@@ -12,25 +12,25 @@ class Header extends Component {
           <img className="logo" src={logo} alt="" />
           <ul>
             <li>
-              <a href="">Продукция</a>
+              <a href="#products">Продукция</a>
             </li>
             <li>
-              <a href="">Сертификаты</a>
+              <a href="#sertificates">Сертификаты</a>
             </li>
             <li>
-              <a href="">Наша команда</a>
+              <a href="#team">Наша команда</a>
             </li>
             <li>
-              <a href="">О нас</a>
+              <a href="#about">О нас</a>
             </li>
             <li>
-              <a href="">Новости</a>
+              <a href="#news">Новости</a>
             </li>
             <li>
-              <a href="">Вакансии</a>
+              <a href="#form">Вакансии</a>
             </li>
             <li>
-              <a href="">Контакты</a>
+              <a href="#form">Контакты</a>
             </li>
           </ul>
           <button id="menu-btn">Menu</button>

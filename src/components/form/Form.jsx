@@ -5,6 +5,7 @@ class Form extends Component {
   render() {
     return (
       <div
+        id="form"
         className="form container"
         style={{ backgroundImage: `url(${formBanner})` }}
       >

@@ -9,7 +9,7 @@ import serImg5 from "../../assets/images/ser-5.png";
 class Sertificates extends Component {
   render() {
     return (
-      <div className="sertificates container">
+      <div id="sertificates" className="sertificates container">
         <div className="sertificates-title">
           <h1>Качество продукции подтверждают сертификаты</h1>
         </div>
